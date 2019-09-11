@@ -3,7 +3,7 @@
 A very simple detector of ARP spoofing attacks for Mac OS X.
 
   * Detects attacks by spotting MAC addresses assigned to several IP addresses on LAN.
-  * Runs in the background using ```launcd```.
+  * Runs in the background using ```launchd```.
   * Sends OS X notifications when an ARP attack is suspected.
   * Runs on Python.
 
