@@ -2,7 +2,7 @@
 
 """
 Simple program to detect ARP attacks on local network.
-Runs in the background every 60 min using launchd.
+Runs in the background using launchd.
 """
 
 import os
