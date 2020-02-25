@@ -36,7 +36,6 @@ def notify(arp, entry_list):
 arp_raw = os.popen('arp -a').read()
 arp_dict = dict()
 
-ArpEntry = namedtuple('ArpEntry', 'ip interface')
 arp_re = re.compile(
 	r'\(((\d{1,3}\.?){4})\)\s+at\s+'
 	r'(([a-f0-9]{1,2}:?){6})\s+on\s+'
